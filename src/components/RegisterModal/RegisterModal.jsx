@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { Link, Navigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import ModalContainer from "../ModalContainer/ModalContainer";
 import styles from "./registerModal.module.css";
 import passwordIcon from "../../assets/passwordIcon.png";
-import { useNavigate } from 'react-router-dom';
+
 
 
 const RegisterModal = () => {
@@ -12,7 +12,7 @@ const RegisterModal = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [showError, setShowError] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
-  const [showLogin, setShowLogin] = useState(false);
+  // const [showLogin, setShowLogin] = useState(false);
   const [isProcessing, setIsProcessing] = useState(false);
 
   const handleSubmit = async (event) => {
