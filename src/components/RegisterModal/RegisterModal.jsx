@@ -118,7 +118,7 @@ const RegisterModal = () => {
                 <div className={styles.formHeader}>Processing...</div>
               )}
             </form>
-          </>
+         // </>
         )}
       </ModalContainer>
     </>
