@@ -71,7 +71,7 @@ const RegisterModal = () => {
   return (
     <>
       <ModalContainer>
-        {showLogin ? (
+{/*         {showLogin ? (
           <>
             <h1 className={styles.formHeader}>Welcome to SwipTory!</h1>
             <p className={styles.formHeader}>Please sign in to continue</p>
@@ -80,7 +80,7 @@ const RegisterModal = () => {
             </Link>
           </>
         ) : (
-          <>
+          <> */}
             <h1 className={styles.formHeader}>Register to SwipTory</h1>
             <form className={styles.formContainer}>
               <div>
