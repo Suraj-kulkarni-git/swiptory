@@ -79,8 +79,8 @@ const RegisterModal = () => {
               <button className={styles.signInBtn}>Sign In</button>
             </Link>
           </>
-        ) : (
-          <> */}
+        ) : (  */}
+          <> 
             <h1 className={styles.formHeader}>Register to SwipTory</h1>
             <form className={styles.formContainer}>
               <div>
